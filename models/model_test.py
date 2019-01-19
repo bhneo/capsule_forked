@@ -50,7 +50,7 @@ class ModelTest(tf.test.TestCase):
       logits = variables.bias_variable([1, 3])
       return model.Inferred(logits, None)
 
-  @mock.patch.multiple(model.Model, __abstractmethods__=set())
+  # @mock.patch.multiple(model.Model, __abstractmethods__=set())
   def testModelInitialization(self):
     """Checks the variables declared in the init method.
 
@@ -106,7 +106,7 @@ class ModelTest(tf.test.TestCase):
 
   # Model is an abstract class. mock.patch empties the abstractmethods set
   # so that it can be initializable for testing other functions.
-  @mock.patch.multiple(model.Model, __abstractmethods__=set())
+  # @mock.patch.multiple(model.Model, __abstractmethods__=set())
   def testAverageGradients(self):
     """Checks the correct average for multiple towers and multiple variables.
 

@@ -132,7 +132,7 @@ class LayersTest(tf.test.TestCase):
         padding='SAME',
         num_routing=3,
         leaky=False)
-    self.assertListEqual(output.get_shape().as_list(), [None, 2, 5, 3, 3])
+    self.assertListEqual(output.get_shape().as_list(), [6, 2, 5, 3, 3])
     trainable_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES)
     self.assertEqual(len(trainable_vars), 2)
     self.assertStartsWith(trainable_vars[0].name, 'conv_capsule')

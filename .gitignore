@@ -1,0 +1,6 @@
+local*
+dist
+*.egg-info
+data/*
+result/*
+*__pycache__
