@@ -21,7 +21,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 from models import model
-from capslayers import layers, variables
+from capslayer import layers, variables
 
 
 class CapsuleModel(model.Model):

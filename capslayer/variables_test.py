@@ -21,7 +21,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from capslayers import variables
+from capslayer import variables
 
 
 class VariablesTest(tf.test.TestCase):

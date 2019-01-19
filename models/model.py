@@ -32,7 +32,7 @@ from __future__ import print_function
 import abc
 import collections
 import tensorflow as tf
-from capslayers import layers
+from capslayer import layers
 
 TowerResult = collections.namedtuple('TowerResult', ('inferred', 'almost',
                                                      'correct', 'grads'))

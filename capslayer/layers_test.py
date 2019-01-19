@@ -23,7 +23,7 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
-from capslayers import layers
+from capslayer import layers
 
 
 class LayersTest(tf.test.TestCase):

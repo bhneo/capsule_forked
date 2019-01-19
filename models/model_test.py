@@ -22,7 +22,7 @@ from __future__ import print_function
 import tensorflow as tf
 
 from models import model
-from capslayers import variables
+from capslayer import variables
 
 
 class ModelTest(tf.test.TestCase):

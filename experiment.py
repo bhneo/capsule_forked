@@ -26,10 +26,9 @@ import time
 import numpy as np
 import tensorflow as tf
 
-
-from input_data.cifar10 import cifar10_input
-from input_data.mnist import mnist_input_record
-from input_data.norb import norb_input_record
+from models.input_data.cifar10 import cifar10_input
+from models.input_data.mnist import mnist_input_record
+from models.input_data.norb import norb_input_record
 from models import capsule_model
 from models import conv_model
 
