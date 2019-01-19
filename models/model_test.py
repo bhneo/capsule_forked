@@ -19,12 +19,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-
-import mock
 import tensorflow as tf
 
 from models import model
-from models.layers import variables
+from capslayers import variables
 
 
 class ModelTest(tf.test.TestCase):

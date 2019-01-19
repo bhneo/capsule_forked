@@ -24,7 +24,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 from models import model
-from models.layers import variables
+from capslayers import variables
 
 
 class ConvModel(model.Model):

@@ -26,7 +26,7 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
-from models.layers import variables
+from capslayers import variables
 
 
 def _squash(input_tensor):
